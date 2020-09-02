@@ -49,7 +49,7 @@ app.get('/', (req, res) => {
 			console.log(err);
 		}
 		else {
-			res.render('app', { items: items });
+			res.render('final', { items: items });
 		}
 	});
 });
